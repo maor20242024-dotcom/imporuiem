@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imperium Gate AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --brand-navy: #0b0b0b;
+        --brand-gold: #d4af37;
+        --brand-gold-light: #e6c865;
+        --brand-gold-dark: #b8911a;
+      }
+      body {
+        font-family: 'Cairo', sans-serif;
+        background-color: var(--brand-navy);
+      }
+      .bg-brand-navy {
+        background-color: var(--brand-navy);
+      }
+      .text-brand-gold {
+        color: var(--brand-gold);
+      }
+      .border-brand-gold {
+        border-color: var(--brand-gold);
+      }
+      .ring-brand-gold {
+        --tw-ring-color: var(--brand-gold);
+      }
+      .bg-brand-gold {
+        background-color: var(--brand-gold);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.24.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-i18next": "https://aistudiocdn.com/react-i18next@^16.0.0",
+    "i18next-browser-languagedetector": "https://aistudiocdn.com/i18next-browser-languagedetector@^8.2.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.4",
+    "i18next": "https://aistudiocdn.com/i18next@^25.6.0",
+    "path": "https://aistudiocdn.com/path@^0.12.7",
+    "fs": "https://aistudiocdn.com/fs@^0.0.1-security",
+    "@/": "/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
